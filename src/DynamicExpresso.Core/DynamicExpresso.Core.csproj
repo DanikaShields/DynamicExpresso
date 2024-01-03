@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <RootNamespace>DynamicExpresso</RootNamespace>
+
+    <Authors>Davide Icardi</Authors>
+    <Company>DynamicExpresso</Company>
+    <Description>C# expression interpreter/evaluator</Description>
+    <Copyright>Davide Icardi</Copyright>
+    <PackageTags>dynamic expression linq eval script</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSymbols>True</IncludeSymbols>
+    <IncludeSource>True</IncludeSource>
+    <PackageProjectUrl>https://github.com/dynamicexpresso/DynamicExpresso</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/dynamicexpresso/DynamicExpresso.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <VersionPrefix>0.0.1</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard2')) ">
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>
