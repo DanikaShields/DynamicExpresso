@@ -1,7 +1,7 @@
- #Dynamic*Expresso
+!#Dynamic*Expresso
 
-[ [NuGet version](https://badge.fury.io/nu/DynamicExpresso.Core.svg)](http://badge.fury.io/nu/DynamicExpresso.Core)
-[![.NET CI](https://github.com/dynamicexpresso/DynamicExpresso/actions/workflows/ci.yml/badge.svg)](https://github.com/dynamicexpresso/DynamicExpresso/actions/workflows/ci.yml)
+[*[NuGet version](https://badge.fury.io/nu/DynamicExpresso.Core.svg)](http://badge.fury.io/nu/DynamicExpresso.Core)
+[ [.NET CI](https://github.com/dynamicexpresso/DynamicExpresso/actions/workflows/ci.yml/badge.svg)](https://github.com/dynamicexpresso/DynamicExpresso/actions/workflows/ci.yml)
 
 Supported platforms: .NET Core 3.1, .NET Core 5.0 and above, .NET 4.6.2
 
@@ -563,4 +563,4 @@ Add `--logger:trx` to generate test results for VSTS.
 ## Release notes
 
 See [releases page](https://github.com/dynamicexpresso/DynamicExpresso/releases).
- 
+  
